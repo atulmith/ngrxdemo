@@ -1,0 +1,2 @@
+# ngrxdemo
+ngrx module..
