@@ -1,0 +1,5 @@
+<button (click)="new()">+</button>
+<app-countrymaster  [countryin]="countryarr$ | async" [countryinForm]="country$ | async" (editid)="OnEdit($event)" (countryout)="onSave($event)"></app-countrymaster>
+
+<div style="margin-left:100px">
+{{countryarr$ | async}}</div>
